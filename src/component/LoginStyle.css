@@ -1,0 +1,57 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.inputEmail{
+    margin-bottom: 20px;
+}
+.inputPassword{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.loginCard{
+    height: auto; 
+    flex: 40%;
+    border: none;
+    border-radius: 8px;
+    padding: 2rem;
+    background-color: #181818;
+}
+
+.loginCard h1{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-bottom: 8px;
+}
+
+.loginCard .cardForm{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.loginCard .cardForm input{
+    border-radius: 0.5rem;
+    width: 100%;
+    background-color:rgba(210, 210, 210, 0.25);
+    font-size: 1rem;
+    padding: 0.5rem;
+    color: white;
+    border: 1px solid white;
+}
+
+.loginCard .cardForm button{
+    width: 100%;
+    border-radius: 0.5rem;
+   padding: 5px;
+    background-color: #F74D4D;
+    color: white;
+    font-size: 15pt;
+}
+
+.loginCard .cardForm ::placeholder{
+    font-size: 1rem
+}
+
