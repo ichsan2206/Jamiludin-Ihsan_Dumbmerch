@@ -1,10 +1,15 @@
 import React from 'react';
-import StartPage from './component/StartPage';
+// import StartPage from './component/StartPage';
+import UserPage from './User/UserPage';
+import {Routes, Route} from 'react-router-dom';
 
 function App() {
   return (
     <div>
-      <StartPage />
+      <Routes>
+      {/* <Route path='/' element={<StartPage />}/> */}
+      <Route path='/UserPage' element={<UserPage/>}/>
+      </Routes>
     </div>
   );
 }

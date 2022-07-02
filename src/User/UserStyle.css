@@ -1,0 +1,70 @@
+h1{
+    color: white;
+}
+
+
+.container {
+    display: grid; 
+    margin-top: 25px;
+    grid-template-columns: 0.5fr 1.5fr !important; 
+    grid-template-areas: 
+      "left right";
+  }
+  .left { grid-area: left;}
+  .right { grid-area: right;}
+
+button{
+    color: white;
+    font-weight: bold;
+    text-indent: 2px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.right ul{
+    display: flex;
+}
+
+.right ul li{
+    margin: 10px;
+}
+
+.left{
+    display: flex;
+}
+
+.img{
+    display: block;
+    margin:auto;
+    width: 30%;
+    height: auto;
+}
+
+button:focus{
+color:#F74D4D;
+}
+
+@media only screen and (max-width:600px){
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr !important;
+        grid-template-areas: 
+        "left right"; 
+    }
+
+    .img{
+        display: block;
+        margin-right: 65%;
+        width: 20%;
+        height: auto;
+    }
+
+    .right{
+        padding-right: 30px;
+    }
+}

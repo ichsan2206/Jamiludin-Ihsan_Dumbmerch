@@ -64,10 +64,6 @@ font-size: 15pt;
     color: white;
 }
 
-.buttonLogin:hover{
-    background-color: #F74D4D;
-}
-
 .buttonLogin:focus {
     background-color: #F74D4D;
 }
@@ -79,10 +75,6 @@ font-size: 15pt;
     padding-bottom: 4px;
     border-radius: 5px;
     color: white;
-}
-
-.buttonRegister:hover{
-    background-color: #F74D4D;
 }
 
 .buttonRegister:focus {
