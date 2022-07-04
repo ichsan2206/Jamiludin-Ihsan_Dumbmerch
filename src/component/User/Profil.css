@@ -1,0 +1,237 @@
+
+.container-profil{
+    display: grid; 
+    grid-template-columns: 0.9fr 0.9fr 1.4fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 1px; 
+    grid-template-areas: 
+      "profil detail transaksi"; 
+  }
+  .transaksi { grid-area: transaksi;}
+  .profil { grid-area: profil;}
+  .detail { grid-area: detail;}
+
+  .profil h1{
+    color: #F74D4D;
+    font-weight: bold;
+    font-size: 15pt;
+    margin-bottom: 20px !important;;
+  }
+
+  .profilP{
+    width: 320px;
+    height: 435px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .transaksi h1{
+    color: #F74D4D;
+    font-size: 15pt;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .detail{
+    margin-top: 40px;
+  }
+
+  .container-detail{
+    height: 455px;
+    width: 100%;
+  }
+
+.container-detail h1{
+    color: #F74D4D;
+    font-weight: bold;
+    font-size: 13pt !important;
+}
+
+  .container-detail p{
+    color: white;
+    margin-bottom: 2px;
+    font-size: 11pt !important;
+  }
+
+  .container-detail div{
+    margin-bottom: 30px;
+  }
+
+  .containerT{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
+    height: 145px;
+    background-color: #303030;
+  }
+  .contentT{
+display: flex;
+background-color: #F74D4D;
+align-items: center;
+justify-content: center;
+  }
+
+.detailT{
+  margin-left: 20px;
+width: 50%;
+}
+
+.detailT h1{
+color:#F74D4D;
+font-size: 13pt !important;
+margin-bottom: 2%;
+}
+.detailT h2{
+  color: #F74D4D;
+  font-size: 8pt;
+}
+.detailT h3{
+  color: white;
+  font-size: 10pt;
+}
+
+.detailT p{
+  color:white;
+  font-size: 10pt;
+  margin-top: 20%; 
+}
+
+.contentT img{
+  width: 90px;
+  height: 120px;
+  object-fit: cover;
+  object-position: center;
+}
+
+  .logoT{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .logoT img{
+    display: content;
+    width: 30%;
+  }
+
+  @media only screen and (max-width:1300px){
+   
+    .container-profil{
+      display: grid; 
+      grid-template-columns: 0.7fr 1.6fr; 
+      grid-template-rows: 1fr 1fr; 
+      gap: 0px 5px; 
+      grid-template-areas: 
+        "profil detail"
+        "transaksi transaksi"; 
+    } 
+    .detailT h1{
+      color:#F74D4D;
+      font-size: 13pt !important;
+      margin-top: 5%;
+      }
+      .detailT h2{
+        color: #F74D4D;
+        font-size: 8pt;
+      }
+      .detailT h3{
+        color: white;
+        font-size: 10pt;
+      }
+      
+      .detailT p{
+        color:white;
+        font-size: 10pt;
+        margin-top: 10%; 
+      }
+    }
+
+    @media only screen and (max-width:900px){
+   
+      .container-profil{
+        display: grid; 
+        grid-template-columns: 0.9fr 1.2fr; 
+        grid-template-rows: 1fr 1fr; 
+        gap: 0px 10px; 
+        grid-template-areas: 
+          "profil detail"
+          "transaksi transaksi"; 
+      } 
+      .detailT h1{
+        color:#F74D4D;
+        font-size: 13pt !important;
+        margin-top: 5%;
+        }
+        .detailT h2{
+          color: #F74D4D;
+          font-size: 8pt;
+        }
+        .detailT h3{
+          color: white;
+          font-size: 10pt;
+        }
+        
+        .detailT p{
+          color:white;
+          font-size: 10pt;
+          margin-top: 10%; 
+        }
+      }
+  
+
+  @media only screen and (max-width:700px){
+   
+.container-profil{
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr 1fr; 
+  gap: 0px 10px; 
+  grid-template-areas: 
+    "profil detail"
+    "transaksi transaksi"; 
+} 
+}
+@media only screen and (max-width:600px){
+   
+  .container-profil{
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 0px 5px; 
+    grid-template-areas: 
+      "profil"
+      "detail"
+      "transaksi"; 
+  }
+      .detailT h1{
+        color:#F74D4D;
+        font-size: 13pt !important;
+        margin-top: 5%;
+        }
+        .detailT h2{
+          color: #F74D4D;
+          font-size: 8pt;
+        }
+        .detailT h3{
+          color: white;
+          font-size: 10pt;
+        }
+        
+        .detailT p{
+          color:white;
+          font-size: 10pt;
+          margin-top: 8%; 
+        }     
+
+        .detailT{
+          margin-left: 20px;
+        width: 70%;
+        }
+
+        .logoT img{
+          display: contents;
+          visibility: collapse;
+        }
+}

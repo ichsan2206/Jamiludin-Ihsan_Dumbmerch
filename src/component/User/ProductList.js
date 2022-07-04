@@ -1,6 +1,6 @@
-import React from 'react'
-import './ProductStyle.css'
-import Img from '../img/Rectangle 4.jpg'
+import React from 'react';
+import './ProductStyle.css';
+import Navbar from '../Navbar/NavbarUser'
 
 const products = [
     {
@@ -43,6 +43,7 @@ const products = [
 function  ProductList() {
   return (
     <div>
+        <Navbar />
         <div className='post'>
         <div>
             <h1>Produk</h1>

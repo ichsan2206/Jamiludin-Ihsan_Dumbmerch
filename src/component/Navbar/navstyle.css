@@ -1,0 +1,41 @@
+img{
+    width: 30%;
+    height: auto;
+}
+
+.bg-black{
+    height: 20vh;
+}
+.navGroup{
+display: flex;
+padding-right: 7%;
+}
+
+.navGroup button{
+    padding-right: 10%;
+    color: white;
+    font-weight: bold;
+}
+
+.navGroup button:focus{
+    color:  #F74D4D;
+    font-weight: bolder;
+}
+
+.navP{
+    text-decoration: none;
+    color: white;
+  }
+
+.navP:focus{
+    text-decoration: none;
+    color:  #F74D4D;
+}
+
+.navP:hover{
+    text-decoration: none;
+    color:  #F74D4D;
+}
+
+
+  
