@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom';
 
 function NavbarUser() {
   return (
+    <>
     <Navbar className='bg-black' sticky="top" bg="dark" variant="dark" expand="lg">
     <Container fluid>
       <Navbar.Brand className='px-10'><Link to='/UserPage'><img src={LogoDW} alt='logo' /></Link></Navbar.Brand>
@@ -20,14 +21,16 @@ function NavbarUser() {
         >
         </Nav>
         <div className='navGroup'>
-         <button>Complain</button>
+         <button><Link to='/Complain-User' className='navP'>Complain</Link></button>
          <button> <Link to='/Profil' className='navP'>Profil</Link></button> 
          <button><Link to='/' className='navP'>Logout</Link></button>
         </div>
       </Navbar.Collapse>
     </Container>
   </Navbar>
+  </>
   )
 }
+
 
 export default NavbarUser;

@@ -37,5 +37,47 @@ padding-right: 7%;
     color:  #F74D4D;
 }
 
+.navGroupAdmin{
+    display: flex;
+    padding-right: 14%;
+}
+    
+.navGroupAdmin button{
+    padding-right: 10%;
+    color: white;
+    font-weight: bold;
+}
+    
+.navGroupAdmin button:focus{
+    color:  #F74D4D;
+    font-weight: bolder;
+}
 
-  
+@media only screen and (max-width:600px){
+    .navGroupAdmin{
+        display: block;
+        margin: auto;
+        padding: auto;
+        background-color: black;
+    }
+
+    .navGroupAdmin button{
+        display: block;
+        margin-left: 10%;
+        background-color: black;
+    }
+
+    .navGroup{
+        display: block;
+        margin: auto;
+        padding: auto;
+        background-color: black;
+    }
+
+    .navGroup button{
+        display: block;
+        margin-left: 10%;
+        background-color: black;
+    }
+}
+

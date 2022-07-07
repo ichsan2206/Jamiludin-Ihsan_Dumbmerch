@@ -1,0 +1,140 @@
+.postComplain{
+    padding-left: 4vw;
+    padding-right: 1vw;
+}
+
+.containerComplain {  display: grid;
+    grid-template-columns: 0.7fr 1.3fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "listChat roomChat";
+  }
+  
+  .listChat { 
+    grid-area: listChat;
+    border-right: 2px solid rgba(106, 106, 106, 0.3);
+    height: 100vh}
+  .roomChat {grid-area: roomChat;  }
+
+  .chat{
+    margin-top: 5%;
+    display: flex;
+  }
+
+  .chat img{
+    border-radius: 50%;
+    height: 60px;
+    width: auto;
+}
+  
+.viewChat{
+    margin-left: 5%;
+    width: auto;;
+}
+
+.viewChat h1{
+color: white;
+width: auto;
+font-size: 13pt !important;
+}
+
+.viewChat p{
+color: white;
+width: auto;
+font-size: 12pt !important;
+}
+
+.conversation{
+    width: 90%;
+    height: 100%;
+}
+
+.chatme{
+    display: relative;
+    text-align: right;
+    max-width: 300px;
+    float: right;
+    width: auto;
+    height: auto;
+    margin-top: 30%;
+}
+
+.chatme p{
+    padding: .4rem 2rem;
+    background: #575757;
+    font-weight: 300;
+    line-height: 150%;
+    width: fit-content;
+    position: relative;
+    margin-left: 7%;
+    color: white;
+    margin: 20px;
+}
+
+.chatme p::after{
+    content: '';
+    position: absolute;
+    right: -19px;
+    border: 10px solid;
+    border-color: transparent transparent transparent  #575757 ;
+}
+
+.chatother img{
+    border-radius: 50%;
+    height: 50px;
+    width: auto;
+}
+
+.chatother{
+    margin-top: 40%;
+   overflow: auto;
+    max-width: 300px;
+    bottom: 0%;
+    display: flex;
+    align-items: center;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+.chatother p{
+    padding: .4rem 2rem;
+    background: #575757;
+    font-weight: 300;
+    line-height: 150%;
+    width: fit-content;
+    position: relative;
+    margin-left: 7%;
+    color: white;
+}
+
+.chatother p:before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -20px;
+    border: 10px solid;
+    border-color: transparent #575757 transparent transparent;
+}
+
+
+.inputChat{
+    position: fixed;
+    left: 40%;
+    right: auto;
+    height: 100px;
+    bottom: 0;
+    width: 60%;
+    
+}
+
+.inputChat input{
+    background-color: rgba(171, 171, 171, 0.15);
+    width: 90%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    color: white;
+}

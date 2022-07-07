@@ -1,0 +1,14 @@
+.post{
+    display: block;
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+}
+
+.post h1{
+    color: #F74D4D;
+    font-size: 15pt !important;
+    font-weight: bold ;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
